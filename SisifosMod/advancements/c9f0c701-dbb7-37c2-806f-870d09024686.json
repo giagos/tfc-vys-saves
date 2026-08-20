@@ -1,0 +1,34 @@
+{
+  "firmalife:story/root": {
+    "criteria": {
+      "in_game_condition": "2026-08-19 22:16:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-19 22:16:24 +0000"
+    },
+    "done": true
+  },
+  "tfc:story/root": {
+    "criteria": {
+      "in_game_condition": "2026-08-19 22:16:24 +0000"
+    },
+    "done": true
+  },
+  "tfc:world/root": {
+    "criteria": {
+      "in_game_condition": "2026-08-19 22:16:24 +0000"
+    },
+    "done": true
+  },
+  "tfc:world/adventuring_time": {
+    "criteria": {
+      "hills": "2026-08-19 22:16:30 +0000",
+      "low_canyons": "2026-08-19 22:16:25 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
