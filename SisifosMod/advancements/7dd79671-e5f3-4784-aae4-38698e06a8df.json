@@ -2,11 +2,14 @@
   "tfc:world/adventuring_time": {
     "criteria": {
       "ocean": "2026-08-20 02:14:52 +0300",
+      "lowlands": "2026-08-21 00:22:26 +0300",
       "plains": "2026-08-20 02:07:02 +0300",
       "hills": "2026-08-20 00:03:37 +0300",
       "low_canyons": "2026-08-20 00:03:17 +0300",
       "shore": "2026-08-20 02:14:46 +0300",
       "river": "2026-08-20 02:06:05 +0300",
+      "coastal_dunes": "2026-08-20 22:45:33 +0300",
+      "salt_marsh": "2026-08-21 00:25:23 +0300",
       "lake": "2026-08-20 00:34:29 +0300",
       "tidal_flats": "2026-08-20 02:15:16 +0300",
       "canyons": "2026-08-20 00:42:34 +0300"
@@ -401,11 +404,19 @@
     "criteria": {
       "soybean": "2026-08-20 01:30:36 +0300",
       "garlic": "2026-08-20 02:18:43 +0300",
+      "oat": "2026-08-20 02:12:08 +0300",
+      "onion": "2026-08-20 18:27:36 +0300",
+      "radish": "2026-08-20 23:05:52 +0300",
+      "barley": "2026-08-20 23:39:17 +0300",
+      "tomato": "2026-08-20 22:42:48 +0300",
+      "maize": "2026-08-20 23:39:04 +0300",
       "alfalfa": "2026-08-20 04:40:20 +0300",
       "squash": "2026-08-20 05:45:53 +0300",
-      "oat": "2026-08-20 02:12:08 +0300",
       "potato": "2026-08-20 00:34:50 +0300",
       "wheat": "2026-08-20 02:59:41 +0300",
+      "beet": "2026-08-20 22:41:33 +0300",
+      "melon": "2026-08-21 00:10:28 +0300",
+      "pumpkin": "2026-08-21 01:19:29 +0300",
       "rye": "2026-08-20 03:08:12 +0300",
       "carrot": "2026-08-20 00:35:51 +0300"
     },
@@ -856,6 +867,233 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2026-08-20 05:45:43 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/raw_stone": {
+    "criteria": {
+      "stones": "2026-08-20 18:14:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/stone_anvil": {
+    "criteria": {
+      "special_condition": "2026-08-20 18:44:43 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/charcoal": {
+    "criteria": {
+      "charcoal": "2026-08-20 19:32:48 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/confetti_popper": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_2": "2026-08-20 19:53:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-08-20 19:53:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-08-20 19:53:44 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/spring_launcher": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_4": "2026-08-20 19:53:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/propick": {
+    "criteria": {
+      "tools/propick": "2026-08-20 20:16:45 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/chisel": {
+    "criteria": {
+      "tools/chisel": "2026-08-20 20:16:59 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/quern": {
+    "criteria": {
+      "quern": "2026-08-20 20:20:38 +0300"
+    },
+    "done": false
+  },
+  "tfc:world/iron": {
+    "criteria": {
+      "hematite": "2026-08-20 20:47:16 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2026-08-20 20:59:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_carved_pumpkin": "2026-08-20 20:59:37 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/flux": {
+    "criteria": {
+      "welding_flux": "2026-08-20 21:06:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/fruit": {
+    "criteria": {
+      "blueberry": "2026-08-20 23:11:15 +0300",
+      "blackberry": "2026-08-20 22:55:20 +0300",
+      "wintergreen_berry": "2026-08-22 02:26:26 +0300"
+    },
+    "done": false
+  },
+  "tfc:world/saplings": {
+    "criteria": {
+      "spruce": "2026-08-20 23:34:39 +0300"
+    },
+    "done": false
+  },
+  "firmalife:story/dry": {
+    "criteria": {
+      "drying_mat": "2026-08-21 00:50:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/familiarity": {
+    "criteria": {
+      "special_condition": "2026-08-21 01:18:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/scraped_hide": {
+    "criteria": {
+      "scraped_hide": "2026-08-21 01:23:02 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/loom": {
+    "criteria": {
+      "looms": "2026-08-21 01:38:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bellows": {
+    "criteria": {
+      "has_item_minecraft_leather_2": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/leather": {
+    "criteria": {
+      "leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:51:33 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/forge": {
+    "criteria": {
+      "special_condition": "2026-08-21 02:01:00 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/spindle": {
+    "criteria": {
+      "spindle": "2026-08-21 02:05:50 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/bellows": {
+    "criteria": {
+      "bellows": "2026-08-21 02:11:21 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/metallurgist": {
+    "criteria": {
+      "cast_iron": "2026-08-21 02:20:30 +0300",
+      "zinc": "2026-08-21 20:49:55 +0300"
+    },
+    "done": false
+  },
+  "tfc:story/cast_iron": {
+    "criteria": {
+      "metal/ingot/cast_iron": "2026-08-21 02:20:30 +0300"
+    },
+    "done": true
+  },
+  "firmalife:story/oven": {
+    "criteria": {
+      "ob": "2026-08-21 02:33:19 +0300",
+      "oc": "2026-08-21 02:33:44 +0300",
+      "ot": "2026-08-21 02:32:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/eat_rotten_food": {
+    "criteria": {
+      "special_condition": "2026-08-21 02:42:31 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/mud_bricks": {
+    "criteria": {
+      "mud_brick_items": "2026-08-21 18:32:49 +0300"
+    },
+    "done": true
+  },
+  "firmalife:story/wax": {
+    "criteria": {
+      "beeswax": "2026-08-22 03:05:49 +0300"
     },
     "done": true
   },

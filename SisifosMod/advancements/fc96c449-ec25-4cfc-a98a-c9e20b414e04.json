@@ -26,11 +26,13 @@
   "tfc:world/adventuring_time": {
     "criteria": {
       "ocean": "2026-08-20 02:14:54 +0300",
+      "lowlands": "2026-08-21 00:13:35 +0300",
       "plains": "2026-08-20 02:06:35 +0300",
       "hills": "2026-08-20 00:05:23 +0300",
       "low_canyons": "2026-08-20 00:04:10 +0300",
       "shore": "2026-08-20 02:14:48 +0300",
       "river": "2026-08-20 02:06:03 +0300",
+      "coastal_dunes": "2026-08-20 22:45:25 +0300",
       "salt_marsh": "2026-08-20 02:34:21 +0300",
       "lake": "2026-08-20 00:10:58 +0300",
       "tidal_flats": "2026-08-20 02:15:19 +0300",
@@ -359,7 +361,9 @@
   "tfc:world/all_fish": {
     "criteria": {
       "crappie": "2026-08-20 00:12:57 +0300",
-      "largemouth_bass": "2026-08-20 04:31:25 +0300"
+      "shellfish": "2026-08-20 22:32:39 +0300",
+      "largemouth_bass": "2026-08-20 04:31:25 +0300",
+      "salmon": "2026-08-20 23:48:13 +0300"
     },
     "done": false
   },
@@ -408,17 +412,22 @@
   "tfc:world/all_crops": {
     "criteria": {
       "soybean": "2026-08-20 00:37:07 +0300",
-      "alfalfa": "2026-08-20 04:33:29 +0300",
-      "squash": "2026-08-20 05:27:56 +0300",
+      "garlic": "2026-08-20 18:40:42 +0300",
       "oat": "2026-08-20 04:32:26 +0300",
-      "potato": "2026-08-20 00:34:39 +0300",
+      "onion": "2026-08-20 20:52:00 +0300",
       "radish": "2026-08-20 02:12:24 +0300",
-      "wheat": "2026-08-20 02:52:05 +0300",
       "barley": "2026-08-20 03:07:53 +0300",
       "tomato": "2026-08-20 00:37:22 +0300",
+      "jute": "2026-08-21 20:42:35 +0300",
+      "alfalfa": "2026-08-20 04:33:29 +0300",
+      "squash": "2026-08-20 05:27:56 +0300",
+      "potato": "2026-08-20 00:34:39 +0300",
+      "wheat": "2026-08-20 02:52:05 +0300",
       "beet": "2026-08-20 00:26:56 +0300",
+      "melon": "2026-08-21 00:10:40 +0300",
       "pumpkin": "2026-08-20 02:14:11 +0300",
-      "carrot": "2026-08-20 02:24:17 +0300"
+      "carrot": "2026-08-20 02:24:17 +0300",
+      "rye": "2026-08-20 23:22:05 +0300"
     },
     "done": false
   },
@@ -676,6 +685,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2026-08-21 18:58:56 +0300",
       "minecraft:spider": "2026-08-20 05:37:45 +0300",
       "minecraft:zombie": "2026-08-20 05:40:15 +0300",
       "minecraft:creeper": "2026-08-20 04:57:58 +0300"
@@ -853,6 +863,250 @@
   "supplementaries:recipe/soap": {
     "criteria": {
       "has_tag_c_ash_2": "2026-08-20 05:41:24 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/raw_stone": {
+    "criteria": {
+      "stones": "2026-08-20 18:14:19 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/mud_bricks": {
+    "criteria": {
+      "mud_brick_items": "2026-08-20 18:53:55 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/charcoal": {
+    "criteria": {
+      "charcoal": "2026-08-20 19:33:29 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/confetti_popper": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_2": "2026-08-20 19:53:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-08-20 19:53:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-08-20 19:53:32 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/spring_launcher": {
+    "criteria": {
+      "has_item_minecraft_gunpowder_4": "2026-08-20 19:53:32 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/propick": {
+    "criteria": {
+      "tools/propick": "2026-08-20 20:16:49 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/chisel": {
+    "criteria": {
+      "tools/chisel": "2026-08-20 20:17:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/quern": {
+    "criteria": {
+      "handstone": "2026-08-20 20:24:20 +0300"
+    },
+    "done": false
+  },
+  "tfc:story/flux": {
+    "criteria": {
+      "welding_flux": "2026-08-20 20:25:02 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/planter": {
+    "criteria": {
+      "has_item_minecraft_bone_meal_2": "2026-08-20 21:05:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-08-20 21:05:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-08-20 21:05:52 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/iron": {
+    "criteria": {
+      "hematite": "2026-08-20 22:45:53 +0300"
+    },
+    "done": false
+  },
+  "tfc:world/fruit": {
+    "criteria": {
+      "blueberry": "2026-08-21 00:45:02 +0300",
+      "blackberry": "2026-08-20 22:55:53 +0300",
+      "snowberry": "2026-08-21 20:37:47 +0300",
+      "cloudberry": "2026-08-21 20:56:43 +0300",
+      "wintergreen_berry": "2026-08-22 02:26:00 +0300"
+    },
+    "done": false
+  },
+  "tfc:world/bear_hunter": {
+    "criteria": {
+      "special_condition": "2026-08-20 23:38:40 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/minerologist": {
+    "criteria": {
+      "gypsum": "2026-08-20 23:46:59 +0300"
+    },
+    "done": false
+  },
+  "tfc:world/familiarity": {
+    "criteria": {
+      "special_condition": "2026-08-21 00:09:22 +0300"
+    },
+    "done": true
+  },
+  "firmalife:story/dry": {
+    "criteria": {
+      "drying_mat": "2026-08-21 00:50:12 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/scraped_hide": {
+    "criteria": {
+      "scraped_hide": "2026-08-21 01:23:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/bellows": {
+    "criteria": {
+      "has_item_minecraft_leather_2": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/leather": {
+    "criteria": {
+      "leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-08-21 01:48:32 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/bellows": {
+    "criteria": {
+      "bellows": "2026-08-21 02:11:41 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/metallurgist": {
+    "criteria": {
+      "cast_iron": "2026-08-21 02:20:35 +0300"
+    },
+    "done": false
+  },
+  "tfc:story/cast_iron": {
+    "criteria": {
+      "metal/ingot/cast_iron": "2026-08-21 02:20:35 +0300"
+    },
+    "done": true
+  },
+  "firmalife:story/oven": {
+    "criteria": {
+      "oc": "2026-08-21 02:36:35 +0300"
+    },
+    "done": false
+  },
+  "tfc:world/eat_rotten_food": {
+    "criteria": {
+      "special_condition": "2026-08-21 02:42:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_the_recipe": "2026-08-21 02:48:12 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/barrel": {
+    "criteria": {
+      "barrels": "2026-08-21 18:03:23 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-08-21 18:59:05 +0300"
+    },
+    "done": true
+  },
+  "firmalife:story/wax": {
+    "criteria": {
+      "beeswax": "2026-08-22 03:25:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/spindle": {
+    "criteria": {
+      "spindle": "2026-08-22 02:49:56 +0300"
+    },
+    "done": true
+  },
+  "tfcthings:recipes/tools/crafting/surveyors_hammer/copper": {
+    "criteria": {
+      "has_head": "2026-08-22 02:16:33 +0300"
     },
     "done": true
   },
